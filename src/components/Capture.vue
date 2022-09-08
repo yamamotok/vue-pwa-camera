@@ -138,7 +138,7 @@ div.preview-pane {
   align-items: center;
 }
 
-div.preview-pane image {
+div.preview-pane img {
   max-width: 100%;
   max-height: 100%;
 }
