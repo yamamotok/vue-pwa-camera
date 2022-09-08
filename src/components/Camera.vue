@@ -137,7 +137,7 @@ onBeforeUnmount(() => {
   </div>
 
   <div class="captured-image" v-show="screenState === ScreenState.Captured">
-    <a :href="data.imageUrl" download="photo.jpg" title="photo" ref="capturedImageLinkRef"
+    <a :href="data.imageUrl" download="photo" title="photo" ref="capturedImageLinkRef"
       ><img ref="capturedImageRef" :src="data.imageUrl" alt="picture"
     /></a>
   </div>
